@@ -36,6 +36,7 @@ PARA ADICIONAR NO GITHUB:
 criar o repositório, depois pegue o link e coloque no gitbash:
  git clone git@github.com:GuilhermeAmaroDev/Meu-Livro-de-Receitas.git
 cd git@github.com:GuilhermeAmaroDev/Meu-Livro-de-Receitas.git = ENTRA NO REPOSITÓRIO
+git add . = PARA ADICIONAR NO CONTROLE LOCA
 git commit -m "Inclusão das anotações do curso de Git/Github" = CRIOU O COMMIT
 git push origin main = ENVIOU TODOS OS COMMITS LOCALMENTE PARA NUVEM(GITHUB)
 
