@@ -1,0 +1,45 @@
+A SIGLA SHA SIGNIFICA SECURE HASH ALGORITHM, É UM CONJUNTO DE FUNÇÕES HASH CRIPTOGRÁFICAS PROJETADAS PELA NSA
+A ENCRIPTAÇÃO GERA CONJUNTO DE CHARACTERES IDENTIFICADOR DE 40 DÍGITOS, É UMA FORMA CURTA DE REPRESENTAR UM ARQUIVO
+
+OBJETOS INTERNOS DO GIT
+BLOBS: CONTEM METADADOS DO GIT, OU SEJA, CONTEM TIPO DO OBJETO, TAMANHO DA STRING, TAMANHO DO ARQUIVO, ENTRE OUTROS, NÃO GUARDA O NOME DO ARQUIVO
+
+TREE: ARMAZENAM BLOBS, APONTA PARA UM BLOB E TAMBÉM GUARDA O NOME DO ARQUIVO, MONTA TODA A ESTRUTURA DE ONDE ESTÁ O ARQUIVO
+
+COMMIT: É O OBJETO QUE VAI JUNTAR TUDO, DÁ SENTIDO PARA A ALTERAÇÃO FEITA, APONTA PARA O AUTOR E A MENSAGEM, TAMBÉM POSSUEM UM SHA1, 
+UMA VEZ ALTERADO O DOCUMENTO, ALTERA TODO O COMMIT
+
+-------------
+
+CHAVES SSH: ESTABELECE UMA CONEXÃO SEGURA E ENCRIPTADA ENTRE DUAS MÁQUINAS ATRAVÉS DE CHAVES PÚBLICAS OU PRIVADAS
+
+PARA CLONAR: git clone (COLOCA O LINK SSH DO GITHUB)
+DEPOIS LS E A SENHA, VAI DIRETO PARA A PASTA 
+
+----------
+git init = iniciar o repositório
+git add = move arquivos
+git commit = cria o primeiro commit
+
+
+mkdir = cria nova pasta
+ls = lista as pastas e documentos
+cd = entra na pasta
+ls -a = aparece arquivos ocultos
+cd .. = volta uma pasta
+git add* = adiciona todas as modificações do nosso repositório local para a staging area
+git commit -m "qualquer mensagem..." = pega todos os arquivos da staging area, envelopa numa mensagem e cria o objeto do git chamado commit 
+
+
+------------------
+PARA ADICIONAR NO GITHUB:
+criar o repositório, depois pegue o link e coloque no gitbash:
+ git clone git@github.com:GuilhermeAmaroDev/Meu-Livro-de-Receitas.git
+cd git@github.com:GuilhermeAmaroDev/Meu-Livro-de-Receitas.git = ENTRA NO REPOSITÓRIO
+git commit -m "Inclusão das anotações do curso de Git/Github" = CRIOU O COMMIT
+git push origin main = ENVIOU TODOS OS COMMITS LOCALMENTE PARA NUVEM(GITHUB)
+
+-------------
+
+
+
